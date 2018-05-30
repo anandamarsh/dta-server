@@ -2,7 +2,7 @@
   "name": "DTA-Server",
   "version": "0.0.1",
   "scripts": {
-    "xpreinstall": "npm install pm2 -g",
+    "preinstall": "npm install pm2 -g",
     "start": "pm2 start -f --attach ./app.js --watch"
   },
   "engines": {
