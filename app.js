@@ -29,4 +29,4 @@ app.get('/state', (req, res) => {
 
 });
 
-app.listen(8080, () => console.log(`DTA Server is up and running`))
+app.listen(process.env.PORT || 3000, () => console.log(`DTA Server is up and running`))
