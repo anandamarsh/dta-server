@@ -2,8 +2,8 @@
   "name": "DTA-Server",
   "version": "0.0.1",
   "scripts": {
-    "xpreinstall": "sudo npm install pm2 -g",
-    "start": "sudo pm2 start -f --attach ./app.js --watch"
+    "xpreinstall": "npm install pm2 -g",
+    "start": "pm2 start -f --attach ./app.js --watch"
   },
   "engines": {
     "node": "=8.9.4"
